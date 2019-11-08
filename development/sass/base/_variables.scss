@@ -1,0 +1,50 @@
+$clr_white: #fff;
+$clr_blue: #151C32;
+$clr_gray: #414141;
+$clr_dark_gray: #838383;
+$clr_light_gray: #6c6c6c;
+$clr_dark: #202020;
+$clr_black: #000;
+$clr_green: #38a585;
+@mixin sw {
+  display: block;
+  position: relative;
+  width: 32px;
+  height: 3px;
+  background: $clr_white;
+  border: none;
+  border-radius: 4px;
+}
+
+@mixin btn {
+  pointer-events: all;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@mixin parent_size {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin lstn {
+  list-style-type: none;
+  padding: 0;
+}
+
+@mixin tran {
+  transition: all .5s ease;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
