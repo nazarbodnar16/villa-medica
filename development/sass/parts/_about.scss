@@ -53,7 +53,6 @@ h2.heading {
 
 
 .about-us {
-  padding: 70px 0;
   position: relative;
   .bg-img {
     position: absolute;
@@ -93,12 +92,13 @@ h2.heading {
 
 .default-list{
   list-style: none;
-  &.has-mark.big-list {
+  &.has-mark {
     .default-list-item {
       span {
         position: relative;
         padding-left: 30px;
         display: block;
+        font-size: 24px;
         &:before {
           position: absolute;
           content: '/';
@@ -106,7 +106,16 @@ h2.heading {
           left: 0;
           transform: translateY(-50%);
           color: $clr_green;
-          font-size: 27px;
+          font-size: 22px;
+        }
+      }
+    }
+    &.has-mark.big-list {
+      .default-list-item {
+        span {
+          &:before {
+            font-size: 27px;
+          }
         }
       }
     }
@@ -131,6 +140,9 @@ h2.heading {
 
 .our-proposition {
   padding: 100px 0;
+  h2.heading {
+    margin-bottom: 60px;
+  }
 }
 
 
@@ -154,12 +166,143 @@ h2.heading {
   }
 }
 
+.quality-control {
+  background: $clr_dark;
+  position: relative;
+  .bg-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h2.heading {
+    color: $clr_white;
+    margin-bottom: 80px;
+  }
+  .control-ico {
+    color: $clr_green;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .default-list {
+    &-item {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.support-btn {
+  background: #e3803f;
+  border: none;
+  font-size: 32px;
+  padding: 20px 25px;
+  border-radius: 35px;
+  color: $clr_white;
+  transition: all .3s;
+  &:hover {
+    background: #CA6726;
+  }
+}
+
+
+.services {
+  position: relative;
+  .bg-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h2.heading {
+    margin-bottom: 50px;
+  }
+}
+
+.services-box {
+  h3 {
+    font-size: 32px;
+    color: $clr_black;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+}
+.services-list {
+  list-style: none;
+  &-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-right: 55px;
+    .ico {
+      margin-right: 20px;
+      font-size: 32px;
+      color: $clr_green;
+    }
+  }
+}
 
 
 
+.worktime {
+  h2.heading {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .cell {
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .page-name {
+      width: 100%;
+      align-self: flex-start;
+    }
+    h2.heading {
+      align-self: flex-start;
+    }
+    .worktime-list {
+      margin-top: auto;
+    }
+  }
+}
 
 
+.worktime-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  &-item {
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
 
+    .number {
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin-right: 30px;
+      color: $clr_black;
+    }
+    .description {
+      strong {
+        display: block;
+        color: $clr_black;
+      }
+    }
+  }
+}
 
 
 

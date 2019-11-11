@@ -122,6 +122,140 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+	<section class="quality-control">
+		<div class="container">
+			<span class="page-name">Quality Control</span>
+			<div class="row">
+				<div class="col-md-8">
+					<h2 class="heading">Down to Zero Risks by Taking Quality Control Over Your Project </h2>	
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="control-ico"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+							<ul class="default-list has-mark">
+								<li class="default-list-item">
+									<span>Developer turnover</span>
+								</li>
+								<li class="default-list-item">
+									<span>Budget raise</span>
+								</li>
+								<li class="default-list-item">
+									<span>Miscommunication</span>
+								</li>
+								<li class="default-list-item">
+									<span>Duration raise</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<div class="control-ico"><i class="fa fa-ban" aria-hidden="true"></i></div>
+							<ul class="default-list has-mark">
+								<li class="default-list-item">
+									<span>Overbilling</span>
+								</li>
+								<li class="default-list-item">
+									<span>Unreliable estimation</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 align-end">
+					<button class="support-btn">24/7 Support</button>
+				</div>
+			</div>
+		</div>
+		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo"></div>
+	</section>
+	<section class="services">
+		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/services.png" alt="Logo"></div>
+		<div class="container">
+			<span class="page-name">services</span>
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="heading">Optimality of Budget</h2>	
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="services-box">
+								<h3>You save on</h3>
+								<ul class="services-list">
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-money" aria-hidden="true"></i></div>
+										<span class="text">Payroll company taxes</span>
+									</li>
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-google-wallet" aria-hidden="true"></i></div>
+										<span class="text">Workplace and soft/hardware costs</span>
+									</li>
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-file-code-o" aria-hidden="true"></i></div>
+										<span class="text">Health insurance, vacation, and sick days</span>
+									</li>
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+										<span class="text">Teams are already pre-contracted</span>
+									</li>
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+										<span class="text">Onboarding time</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="services-box">
+								<h3>You pay for</h3>
+								<ul class="services-list">
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+										<span class="text">Development</span>
+									</li>
+									<li class="services-list-item">
+										<div class="ico"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
+										<span class="text">ITWD management at a fraction of the cost</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="worktime">
+		<div class="container">
+			<div class="cell">
+				<span class="page-name tac">services</span>
+				<h2 class="heading tac">ITWD Works While You Sleep</h2>
+				<ul class="worktime-list">
+					<li class="worktime-list-item">
+						<span class="number">1</span>
+						<div class="sapn description">
+							<strong>We discuss the project</strong>
+							<span>set up milestones and tasks</span>
+						</div>
+					</li>
+					<li class="worktime-list-item">
+						<span class="number">2</span>
+						<div class="sapn description">
+							<strong>Work in Progress</strong>
+							<span>you sleep while we work</span>
+						</div>
+					</li>
+					<li class="worktime-list-item">
+						<span class="number">3</span>
+						<div class="sapn description">
+							<strong>You wake up</strong>
+							<span>the iteration is done</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </main>
 
 <?php get_footer(); ?>
