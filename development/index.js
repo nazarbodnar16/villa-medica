@@ -14,19 +14,13 @@ $(document).ready(function () {
     /*btn-scroll*/
 
 
-    var swiper = new Swiper('.team .swiper-container', {
+    var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
         loop: true,
     });
 
-    var testimonialSwiper = new Swiper('.testimonial .swiper-container', {
-        slidesPerView: 1,
-        loop: true,
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-    });
 });
 
 

@@ -228,7 +228,7 @@ get_header(); ?>
 	<section class="worktime">
 		<div class="container">
 			<div class="cell">
-				<span class="page-name tac">services</span>
+				<span class="page-name tac">WORK TIME</span>
 				<h2 class="heading tac">ITWD Works While You Sleep</h2>
 				<ul class="worktime-list">
 					<li class="worktime-list-item">
@@ -253,6 +253,169 @@ get_header(); ?>
 						</div>
 					</li>
 				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="our-process">
+		<div class="container">
+			<span class="page-name">Our Process</span>
+			<div class="row">
+				<div class="col-md-7">
+					<h2 class="heading">Navigating Safe From Idea to Reality</h2>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="process-step">
+								<div class="process-step-head">
+									<div class="process-step-number">1</div>
+									<h3>Enquiry</h3>
+								</div>
+								<div class="process-step-body">
+									<p>You give us a scope and requirements for tour project: stack, budget, timeframe, etc</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="process-step">
+								<div class="process-step-head">
+									<div class="process-step-number">2</div>
+									<h3>72hrs</h3>
+								</div>
+								<div class="process-step-body">
+									<p>We provide you the best estimate from several IT Watchdog partners that fits YOUR objectives</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="process-step">
+								<div class="process-step-head">
+									<div class="process-step-number">3</div>
+									<h3>Guarantee</h3>
+								</div>
+								<div class="process-step-body">
+									<p>We sign an agreement that ensures IT Watchdog is fully responsible for quality devivery of your product. We set milestones and expectations to help your project stay on track</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="process-step">
+								<div class="process-step-head">
+									<div class="process-step-number">4</div>
+									<h3>Safety</h3>
+								</div>
+								<div class="process-step-body">
+									<p>Using proven custom methodology that eliminate risks of delays or errors, we manage and monitor your project till the end to ensure delivery excellence. Dedicated account manager is there for you at all times</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="process-step">
+								<div class="process-step-head">
+									<div class="process-step-number">5</div>
+									<h3>Support</h3>
+								</div>
+								<div class="process-step-body">
+									<p>IT Watchdog provides product support whenever you need it to ensure it works indefectible</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="our-services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h2 class="heading">Our Services</h2>
+				</div>
+				<div class="col-md-7">
+					<div class="head-text">
+						<p>Key to our succes has been the ability to undestand the business requirements of complex and diverse business system and to map these into user friendly but effective systems and interfaces</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Team onboarding</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Plugin &amp; Scale Up resources in 72 hours</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Develop your Concept and SOW with our experts in 3-7days workshop with complete documentation</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Our support while developing MVP in 1-3months at a fraction of the cost, and during further stages of development</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Preparing legal and financial feasibility report for your project</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Hire Team of СТО + Business Analyst as a Service</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-item">
+						<span>Your Personal Account Manager is responsible for quality control, communication, and on-time delivery</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<span class="page-name">Reviews</span>
+			<h2 class="heading">What Сlients Say About Us</h2>
+
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="review-text">
+							<p>We were impressed by fast sourcing and fast on-boarding of Angular developers. They fully integrated into our core processes. The quality of work is outstanding!</p>
+						</div>
+						<div class="review-autor">
+							<div class="review-autor-img bg-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo">
+							</div>
+							<div class="review-autor-desc">
+								<strong class="name">Hannes Kleist</strong>
+								<span>STANWOOD, Managing Director</span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="review-text">
+							<p>We built a software solution to automate legal document and report creation. The solution saves us 2 months of time per year on routine tasks. Team delivers high-quality products on time and at a great value. Quick response times, regular progress updates, and clear task organization make for a consistently smooth workflow.</p>
+						</div>
+						<div class="review-autor">
+							<div class="review-autor-img bg-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo">
+							</div>
+							<div class="review-autor-desc">
+								<strong class="name">Hannes Kleist</strong>
+								<span>STANWOOD, Managing Director</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
 			</div>
 		</div>
 	</section>
