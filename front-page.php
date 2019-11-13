@@ -24,7 +24,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section class="about-us">
+	<section  class="about-us">
 		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/about.png" alt=""></div>
 		<div class="container">
 			<span class="page-name">About Us</span>

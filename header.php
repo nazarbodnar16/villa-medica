@@ -29,15 +29,15 @@ global $webshowcase;
         <span class="logo flex-center"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Logo"></a></span>
         <nav class="main-nav flex-center">
           <ul class="main-nav-list">
-            <li class="main-nav-item"><a href="#">About us</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href=".about-us">About us</a></li>
             <!-- <li class="main-nav-item"><a href="">Our Value Proposition</a></li>
             <li class="main-nav-item"><a href="">Quality Control</a></li> -->
-            <li class="main-nav-item"><a href="">services</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href=".services">services</a></li>
            <!--  <li class="main-nav-item"><a href="">WORK TIME</a></li> -->
-            <li class="main-nav-item"><a href="">Our Process</a></li>
-            <li class="main-nav-item"><a href="">Our Services</a></li>
-            <li class="main-nav-item"><a href="">Reviews</a></li>
-            <li class="main-nav-item"><a href="">Contact</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href=".our-process">Our Process</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href=".our-services">Our Services</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href=".reviews">Reviews</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href="#footer">Contact</a></li>
           </ul>
         </nav>
     </div>

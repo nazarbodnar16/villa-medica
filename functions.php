@@ -42,7 +42,7 @@ function my_assets() {
 	//Custom styles
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/development/css/font-awesome-4.7.0/css/font-awesome.min.css', '1.0' );
 
-	wp_enqueue_style( 'fbootstrap-grod', get_template_directory_uri() . '/development/css/css/bootstrap-grid.css', '1.0' );
+/*	wp_enqueue_style( 'fbootstrap-grod', get_template_directory_uri() . '/development/css/css/bootstrap-grid.css', '1.0' );*/
 
 	wp_enqueue_style( 'id-styles', get_template_directory_uri() . '/styles/main.min.css', '1.0' );
 
@@ -53,7 +53,7 @@ function my_assets() {
 
 	//Vendor scripts
 	wp_enqueue_script( 'id-vendor-script', get_template_directory_uri() . '/scripts/vendor.min.js', array(), '1.0.0', true );
-	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/scripts/swiper.min.js', array(), '1.0.0', true );
+/*	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/scripts/swiper.min.js', array(), '1.0.0', true );*/
 
 	//Custom scripts
 	wp_enqueue_script( 'id-custom-script', get_template_directory_uri() . '/scripts/index.min.js', array(), '1.0.0', true );
