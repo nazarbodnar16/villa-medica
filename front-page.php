@@ -25,7 +25,7 @@ get_header(); ?>
 		</div>
 	</section>
 	<section class="about-us">
-		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/about.png" alt="Logo"></div>
+		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/about.png" alt=""></div>
 		<div class="container">
 			<span class="page-name">About Us</span>
 			<h2 class="heading">Excelling in Everything We Do</h2>
@@ -65,7 +65,9 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-list-alt" aria-hidden="true"></i><h3>Quality Сontrol</h3></div>
+						<div class="heading">
+							<div class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/clipboard.svg" alt=""></div>
+							<h3>Quality Сontrol</h3></div>
 						<div class="text">
 							<p>Your personal account manager is responsible for every aspect of client care and ensures that the development process is swift, smooth and binding</p>
 						</div>
@@ -73,7 +75,11 @@ get_header(); ?>
 				</div>
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-file-text-o" aria-hidden="true"></i><h3>Guarantee</h3></div>
+						<div class="heading">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/list.svg" alt="">
+							</div>
+							<h3>Guarantee</h3></div>
 						<div class="text">
 							<p>We eliminate risks of developer behavior and miscommunication and take full responsibility for successful completion</p>
 						</div>
@@ -81,7 +87,9 @@ get_header(); ?>
 				</div>
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-shopping-bag" aria-hidden="true"></i><h3>Budget Optimized</h3></div>
+						<div class="heading">
+							<div class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/money-bag.svg" alt=""></div>
+							<h3>Budget Optimized</h3></div>
 						<div class="text">
 							<p>You save on withholdings and pay for development work only</p>
 						</div>
@@ -89,7 +97,11 @@ get_header(); ?>
 				</div>
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-briefcase" aria-hidden="true"></i><h3>Business Transparency</h3></div>
+						<div class="heading">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/suitcase.svg" alt="">
+							</div>
+							<h3>Business Transparency</h3></div>
 						<div class="text">
 							<p>You know what you get, when and who is in charge. No hidden costs</p>
 						</div>
@@ -97,7 +109,11 @@ get_header(); ?>
 				</div>
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-desktop" aria-hidden="true"></i><h3>Regulatory Compliance</h3></div>
+						<div class="heading">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/user.svg" alt="">
+							</div>
+							<h3>Regulatory Compliance</h3></div>
 						<div class="text">
 							<p>We are compliant to security regulations such as HIPAA, PCI-DSS, and others</p>
 						</div>
@@ -105,7 +121,11 @@ get_header(); ?>
 				</div>
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-clock-o" aria-hidden="true"></i><h3>Time Saved</h3></div>
+						<div class="heading">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/passage-of-time.svg" alt="">
+							</div>
+							<h3>Time Saved</h3></div>
 						<div class="text">
 							<p>Onboarding time is close to zero (teams are pre-contracted); seamless workflow with time zone overlap</p>
 						</div>
@@ -113,7 +133,11 @@ get_header(); ?>
 				</div>
 				<div class="col-md-4">
 					<div class="proposition-box">
-						<div class="heading"><i class="fa fa-handshake-o" aria-hidden="true"></i><h3>Flexibility</h3></div>
+						<div class="heading">
+							<div class="img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/hand-shake.svg" alt="">
+							</div>
+							<h3>Flexibility</h3></div>
 						<div class="text">
 							<p>Need to meet us in your office? We can fly over to you to discuss your project personally</p>
 						</div>
@@ -132,7 +156,7 @@ get_header(); ?>
 				<div class="col-md-8">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="control-ico"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+							<div class="control-ico"><img src="<?php echo get_template_directory_uri(); ?>/images/bars.svg" alt=""></div>
 							<ul class="default-list has-mark">
 								<li class="default-list-item">
 									<span>Developer turnover</span>
@@ -149,7 +173,7 @@ get_header(); ?>
 							</ul>
 						</div>
 						<div class="col-md-6">
-							<div class="control-ico"><i class="fa fa-ban" aria-hidden="true"></i></div>
+							<div class="control-ico"><img src="<?php echo get_template_directory_uri(); ?>/images/ban.svg" alt=""></div>
 							<ul class="default-list has-mark">
 								<li class="default-list-item">
 									<span>Overbilling</span>
@@ -166,10 +190,10 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo"></div>
+		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt=""></div>
 	</section>
 	<section class="services">
-		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/services.png" alt="Logo"></div>
+		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/services.png" alt=""></div>
 		<div class="container">
 			<span class="page-name">services</span>
 			<div class="row">
@@ -183,23 +207,23 @@ get_header(); ?>
 								<h3>You save on</h3>
 								<ul class="services-list">
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-money" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/pay.svg" alt=""></div>
 										<span class="text">Payroll company taxes</span>
 									</li>
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-google-wallet" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/wallet.svg" alt=""></div>
 										<span class="text">Workplace and soft/hardware costs</span>
 									</li>
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-file-code-o" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/health-insurance.svg" alt=""></div>
 										<span class="text">Health insurance, vacation, and sick days</span>
 									</li>
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/contract.svg" alt=""></div>
 										<span class="text">Teams are already pre-contracted</span>
 									</li>
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/clock.svg" alt=""></div>
 										<span class="text">Onboarding time</span>
 									</li>
 								</ul>
@@ -210,11 +234,11 @@ get_header(); ?>
 								<h3>You pay for</h3>
 								<ul class="services-list">
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/money-bag-2.svg" alt=""></div>
 										<span class="text">Development</span>
 									</li>
 									<li class="services-list-item">
-										<div class="ico"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
+										<div class="ico"><img src="<?php echo get_template_directory_uri(); ?>/images/presentation-board-with-graph.svg" alt=""></div>
 										<span class="text">ITWD management at a fraction of the cost</span>
 									</li>
 								</ul>

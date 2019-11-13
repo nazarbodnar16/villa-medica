@@ -26,7 +26,7 @@ global $webshowcase;
 <body <?php body_class( $class ); ?>>
     <header id="header">
      <div class="container flex-center">
-        <span class="logo flex-center"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo"></a></span>
+        <span class="logo flex-center"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Logo"></a></span>
         <nav class="main-nav flex-center">
           <ul class="main-nav-list">
             <li class="main-nav-item"><a href="#">About us</a></li>

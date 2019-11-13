@@ -1,0 +1,50 @@
+#footer {
+	padding: 80px 0;
+	background: $clr_dark;
+	h2.heading {
+		color: $clr_green;
+		margin-bottom: 50px;
+	}
+}
+
+.contacnt-box {
+	span {
+		display: block;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	strong {
+		color: $clr_white;
+		font-size: 26px;
+		line-height: 30px;
+	}
+	a {
+		color: $clr_white;
+		font-size: 26px;
+		line-height: 30px;
+		&:hover {
+			text-decoration: none;
+			color: $clr_green;
+		}
+	}
+	.phone-box,.email-box,.address-box {
+		margin-bottom: 30px;
+	}
+}
+
+.review-autor {
+	&.contact-autor {
+		border-top: 1px solid #5e5e5e;
+		padding: 30px 0;
+		.name {
+			font-size: 34px;
+			line-height: 38px;
+		}
+		.review-autor-img {
+			height: 80px;
+			width: 80px;
+			margin-right: 25px;
+		}
+	}
+}
