@@ -30,7 +30,7 @@ get_header(); ?>
 			<span class="page-name">About Us</span>
 			<h2 class="heading">Excelling in Everything We Do</h2>
 			<div class="row flex-center">
-				<div class="col-md-7">
+				<div class="col-lg-7 col-md-12">
 					<div class="about-placeholder">
 						<div class="about-text">
 							<p>IT WatchDog Inc also known as ITWD is your dedicated Managed Service Partner in the IT Sector</p>
@@ -40,7 +40,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-5">
+				<div class="col-lg-5 col-md-12">
 					<div class="list-box">
 						<ul class="default-list big-list has-mark">
 							<li class="default-list-item">
@@ -63,7 +63,7 @@ get_header(); ?>
 			<span class="page-name tac">Our Value Proposition</span>
 			<h2 class="heading tac">Exceeding Your Expectations</h2>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/clipboard.svg" alt=""></div>
@@ -73,7 +73,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img">
@@ -85,7 +85,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img"><img src="<?php echo get_template_directory_uri(); ?>/images/money-bag.svg" alt=""></div>
@@ -95,7 +95,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img">
@@ -107,7 +107,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img">
@@ -119,7 +119,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img">
@@ -131,7 +131,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 col-lg-4 col-sm-6">
 					<div class="proposition-box">
 						<div class="heading">
 							<div class="img">
@@ -150,12 +150,12 @@ get_header(); ?>
 		<div class="container">
 			<span class="page-name">Quality Control</span>
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-lg-8 col-md-12">
 					<h2 class="heading">Down to Zero Risks by Taking Quality Control Over Your Project </h2>	
 				</div>
-				<div class="col-md-8">
+				<div class="col-lg-8 col-md-12">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="control-ico"><img src="<?php echo get_template_directory_uri(); ?>/images/bars.svg" alt=""></div>
 							<ul class="default-list has-mark">
 								<li class="default-list-item">
@@ -172,7 +172,7 @@ get_header(); ?>
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="control-ico"><img src="<?php echo get_template_directory_uri(); ?>/images/ban.svg" alt=""></div>
 							<ul class="default-list has-mark">
 								<li class="default-list-item">
@@ -185,7 +185,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-10 align-end">
+				<div class="col-lg-10 col-md-12 align-end">
 					<button class="support-btn">24/7 Support</button>
 				</div>
 			</div>
@@ -197,10 +197,10 @@ get_header(); ?>
 		<div class="container">
 			<span class="page-name">services</span>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12 col-lg-6">
 					<h2 class="heading">Optimality of Budget</h2>	
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-12 col-lg-8">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="services-box">
@@ -291,7 +291,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="process-step">
 								<div class="process-step-head">
 									<div class="process-step-number">1</div>
@@ -302,7 +302,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="process-step">
 								<div class="process-step-head">
 									<div class="process-step-number">2</div>
@@ -313,7 +313,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="process-step">
 								<div class="process-step-head">
 									<div class="process-step-number">3</div>
@@ -324,7 +324,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="process-step">
 								<div class="process-step-head">
 									<div class="process-step-number">4</div>
@@ -335,7 +335,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6">
 							<div class="process-step">
 								<div class="process-step-head">
 									<div class="process-step-number">5</div>
@@ -364,37 +364,37 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Team onboarding</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Plugin &amp; Scale Up resources in 72 hours</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Develop your Concept and SOW with our experts in 3-7days workshop with complete documentation</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Our support while developing MVP in 1-3months at a fraction of the cost, and during further stages of development</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Preparing legal and financial feasibility report for your project</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Hire Team of СТО + Business Analyst as a Service</span>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
 						<span>Your Personal Account Manager is responsible for quality control, communication, and on-time delivery</span>
 					</div>

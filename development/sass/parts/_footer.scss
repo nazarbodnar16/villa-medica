@@ -48,3 +48,44 @@
 		}
 	}
 }
+
+
+@media only screen and (max-width: 1024px) {
+	#footer {
+		padding: 50px 0 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.contacnt-box {
+		strong {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		span {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		a {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		.phone-box, .email-box, .address-box {
+			margin-bottom: 15px;
+		}
+	}
+
+	.review-autor {
+		&.contact-autor {
+			padding: 15px 0;
+			.name {
+				font-size: 24px;
+				line-height: 28px;	
+			}
+			.review-autor-img {
+				height: 50px;
+				width: 50px;	
+			}
+		}
+	}
+}

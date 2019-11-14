@@ -281,7 +281,7 @@
   }
 
   .main-nav {
-    background: rgba(18, 45, 71, 0.8);
+    background: $clr_green;
     padding: 20px 15px;
     position: fixed;
     text-align: center;
@@ -302,6 +302,7 @@
           display: inline-block;
           &:hover {
             background: transparent;
+            color: $clr_white;
           }
         }
         &:first-child {
@@ -317,7 +318,6 @@
 
   body.menu-opened {
     overflow: hidden;
-    position: fixed;
   }
 
   .menu-opened {
@@ -332,18 +332,8 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
-  .top-wrapper #type-name {
-    font-size: 2em;
-    border: 4px solid $clr_white;
-    border-radius: 4px;
-  }
-}
-
-@media only screen and (max-width: 374px) {
-  .top-wrapper #type-name {
-    font-size: 1.5em;
-    border: 2px solid $clr_white;
-    border-radius: 2px;
+@media only screen and (max-width: 576px) {
+  .logo {
+    width: 240px;
   }
 }
