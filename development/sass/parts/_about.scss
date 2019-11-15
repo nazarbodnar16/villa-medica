@@ -649,7 +649,11 @@ background-size: contain; */
 }
 
 @media only screen and (max-width: 991px) {
-
+	.visual {
+		.cell {
+			height: calc(100vh - 300px);
+		}
+	}
 	h2.heading {
 		font-size: 32px!important;
 		line-height: 40px!important;
@@ -733,13 +737,13 @@ background-size: contain; */
 	.review-autor-img {
 		height: 50px;
 		width: 50px;
-	}  
+	} 
 }
 
 
 @media only screen and (max-width: 576px) {
 
-body {
+	body {
 		background-size: 40%;
 	}
 
