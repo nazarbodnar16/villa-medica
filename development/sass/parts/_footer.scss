@@ -1,9 +1,29 @@
 #footer {
-	padding: 80px 0;
+	padding: 80px 0 0;
 	background: $clr_dark;
 	h2.heading {
 		color: $clr_green;
 		margin-bottom: 50px;
+	}
+	.support-btn {
+		display: block;
+		max-width: 225px;
+		text-align: center;
+		margin-bottom: 25px;
+		padding: 15px;
+		&:hover {
+			text-decoration: none;
+			color: $clr_white;
+		}
+	}
+	.copyright {
+		margin-top: 80px;
+		background: $clr_black;
+		font-size: 14px;
+		p {
+			padding: 10px;
+			color: $clr_white;
+		}
 	}
 }
 

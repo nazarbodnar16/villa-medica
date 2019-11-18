@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7 col-sx-12">
-				<h2 class="heading">Thank you</h2>
+				<a class="support-btn" href="mailto:ceo@itwd.com">Contact us</a>
 				<div class="contacnt-box">
 					<div class="phone-box">
 						<span>Phone Number</span>
@@ -21,12 +21,15 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo">
 						</div>
 						<div class="review-autor-desc">
-							<strong class="name">Ryan Sinha, CEO at IT WatchDog</strong>
+							<strong class="name">CEO at IT WatchDog</strong>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="copyright">
+		<p>© 2019 Standard development, All rigths reserved.</p>
 	</div>
 </footer>
 

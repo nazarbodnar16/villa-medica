@@ -17,6 +17,12 @@ $(document).ready(function () {
 
 		$('body').removeClass('menu-opened');
 	});
+
+	$('.btn-scroll.scroll-top').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top - 100}, 500, 'linear');
+	});
+
 	/*btn-scroll*/
 
 

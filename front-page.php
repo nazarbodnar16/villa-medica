@@ -23,6 +23,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+		<a href=".about-us" class="btn-scroll">Scroll down</a>
 	</section>
 	<section  class="about-us">
 		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/about.png" alt=""></div>
@@ -195,7 +196,7 @@ get_header(); ?>
 	<section class="services">
 		<div class="bg-img"><img src="<?php echo get_template_directory_uri(); ?>/images/services.png" alt=""></div>
 		<div class="container">
-			<span class="page-name">services</span>
+			<span class="page-name">Advantages</span>
 			<div class="row">
 				<div class="col-md-12 col-lg-6">
 					<h2 class="heading">Optimality of Budget</h2>	
@@ -366,37 +367,37 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Team onboarding</span>
+						<span class="text" >Team onboarding</span>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Plugin &amp; Scale Up resources in 72 hours</span>
+						<span class="text" >Plugin &amp; Scale Up resources in 72 hours</span>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Develop your Concept and SOW with our experts in 3-7days workshop with complete documentation</span>
+						<span class="text" >Develop your Concept and SOW with our experts in 3-7days workshop with complete documentation</span>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Our support while developing MVP in 1-3months at a fraction of the cost, and during further stages of development</span>
+						<span class="text" >Our support while developing MVP in 1-3months at a fraction of the cost, and during further stages of development</span>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Preparing legal and financial feasibility report for your project</span>
+						<span class="text" >Preparing legal and financial feasibility report for your project</span>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Hire Team of СТО + Business Analyst as a Service</span>
+						<span class="text" >Hire Team of СТО + Business Analyst as a Service</span>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="services-item">
-						<span>Your Personal Account Manager is responsible for quality control, communication, and on-time delivery</span>
+						<span class="text" >Your Personal Account Manager is responsible for quality control, communication, and on-time delivery</span>
 					</div>
 				</div>
 			</div>
@@ -414,9 +415,9 @@ get_header(); ?>
 							<p>We were impressed by fast sourcing and fast on-boarding of Angular developers. They fully integrated into our core processes. The quality of work is outstanding!</p>
 						</div>
 						<div class="review-autor">
-							<div class="review-autor-img bg-img">
+							<!-- <div class="review-autor-img bg-img">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo">
-							</div>
+							</div> -->
 							<div class="review-autor-desc">
 								<strong class="name">Hannes Kleist</strong>
 								<span>STANWOOD, Managing Director</span>
@@ -428,9 +429,9 @@ get_header(); ?>
 							<p>We built a software solution to automate legal document and report creation. The solution saves us 2 months of time per year on routine tasks. Team delivers high-quality products on time and at a great value. Quick response times, regular progress updates, and clear task organization make for a consistently smooth workflow.</p>
 						</div>
 						<div class="review-autor">
-							<div class="review-autor-img bg-img">
+							<!-- <div class="review-autor-img bg-img">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo">
-							</div>
+							</div> -->
 							<div class="review-autor-desc">
 								<strong class="name">Hannes Kleist</strong>
 								<span>STANWOOD, Managing Director</span>
@@ -441,8 +442,24 @@ get_header(); ?>
 				<!-- Add Pagination -->
 				<div class="swiper-pagination"></div>
 			</div>
+			<div class="cases">
+				<h2 class="heading">Cases</h2>
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="services-item">
+							<a class="text" target="blank" href="<?php echo get_template_directory_uri(); ?>/images/1.pdf">Streamlining the Delivery and Decreasing Complexity to Manage</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="services-item">
+							<a class="text" target="blank" href="<?php echo get_template_directory_uri(); ?>/images/2.pdf">Plug-in Team for STANWOOD</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
+	<a href=".visual" class="scroll-top btn-scroll"></a>
 </main>
 
 <?php get_footer(); ?>

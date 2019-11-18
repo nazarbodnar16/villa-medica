@@ -32,7 +32,7 @@ global $webshowcase;
             <li class="main-nav-item"><a class="btn-scroll" href=".about-us">About us</a></li>
             <!-- <li class="main-nav-item"><a href="">Our Value Proposition</a></li>
             <li class="main-nav-item"><a href="">Quality Control</a></li> -->
-            <li class="main-nav-item"><a class="btn-scroll" href=".services">services</a></li>
+            <li class="main-nav-item"><a class="btn-scroll" href=".services">Advantages</a></li>
            <!--  <li class="main-nav-item"><a href="">WORK TIME</a></li> -->
             <li class="main-nav-item"><a class="btn-scroll" href=".our-process">Our Process</a></li>
             <li class="main-nav-item"><a class="btn-scroll" href=".our-services">Our Services</a></li>
