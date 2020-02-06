@@ -1,113 +1,173 @@
 #footer {
-	padding: 80px 0 0;
-	background: $clr_dark;
-	h2.heading {
-		color: $clr_green;
-		margin-bottom: 50px;
-	}
-	.support-btn {
-		display: block;
-		max-width: 225px;
-		text-align: center;
-		margin-bottom: 25px;
-		padding: 15px;
-		&:hover {
-			text-decoration: none;
-			color: $clr_white;
-		}
-	}
-	.copyright {
-		margin-top: 80px;
-		background: $clr_black;
-		font-size: 14px;
-		p {
-			padding: 10px;
-			color: $clr_white;
-		}
-	}
-}
-
-.contacnt-box {
-	span {
-		display: block;
-		font-size: 20px;
-		line-height: 24px;
-		margin-bottom: 5px;
-	}
-	strong {
-		color: $clr_white;
-		font-size: 26px;
-		line-height: 30px;
-	}
-	a {
-		color: $clr_white;
-		font-size: 26px;
-		line-height: 30px;
-		&:hover {
-			text-decoration: none;
-			color: $clr_green;
-		}
-	}
-	.phone-box,.email-box,.address-box {
+	background: $clr_gray;
+	padding: 45px 0;
+	.footer-logo {
+		max-width: 160px;
 		margin-bottom: 30px;
-	}
-}
-
-.review-autor {
-	&.contact-autor {
-		border-top: 1px solid #5e5e5e;
-		padding: 30px 0;
-		.name {
-			font-size: 34px;
-			line-height: 38px;
-		}
-		.review-autor-img {
-			height: 80px;
-			width: 80px;
-			margin-right: 25px;
+		display: block;
+		a {
+			display: block;
 		}
 	}
-}
-
-
-@media only screen and (max-width: 1024px) {
-	#footer {
-		padding: 50px 0 0;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.contacnt-box {
-		text-align: center;
-		strong {
-			font-size: 18px;
-			line-height: 24px;
+	.contact-numbers {
+		a {
+			color: $clr_white;
+			text-decoration: none;
+			display: block;
+			font-size: 16px;
+			line-height: 19px;
+			font-weight: 600;
 		}
+	}
+	.work-days {
+		font-size: 16px;
+		line-height: 19px;
+		font-weight: 600;
+		color: $clr_white;
+		margin-bottom: 15px;
 		span {
-			font-size: 18px;
-			line-height: 24px;
+			display: block;
+		}
+	}
+	.lang-switch {
+		max-width: 120px;
+		&-list {
+			li {
+				&.active {
+					border-color: $clr_white;
+				}
+				a {
+					color: $clr_white;
+					font-size: 14px;
+					line-height: 17px;
+				}
+			}
+		}
+	}
+}
+
+.footer-menu {
+	list-style: none;
+	&-item {
+		&:last-child {
+			a {
+				margin-bottom: 0;
+			}
 		}
 		a {
-			font-size: 18px;
-			line-height: 24px;
+			color: $clr_white;
+			font-size: 16px;
+			line-height: 19px;
+			font-weight: 600;
+			text-decoration: none;
+			margin-bottom: 20px;
+			display: block;
 		}
-		.phone-box, .email-box, .address-box {
+	}
+}
+
+.footer-contact-desc {
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 600;
+	margin-bottom: 25px;
+	color: $clr_white;
+	.city {
+		display: block;
+	}
+}
+
+
+@media only screen and (max-width: 1200px) {
+	#footer {
+		.footer-logo {
 			margin-bottom: 15px;
+		}
+		.row.flex-center {
+			flex-wrap: wrap;
+		}
+		.lang-switch {
+			max-width: 80px;
 		}
 	}
 
-	.review-autor {
-		&.contact-autor {
-			padding: 15px 0;
-			display: flex;
-			justify-content: center;
-			.name {
-				font-size: 24px;
-				line-height: 28px;	
+	.footer-menu {
+		&-item {
+			a {
+				margin-bottom: 10px;
 			}
-			.review-autor-img {
-				height: 50px;
-				width: 50px;	
+		}
+	}
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+	#footer {
+		.work-days-info {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 25px;
+			.footer-contact-desc {
+				margin-bottom: 0;
+			}
+			.work-days {
+				margin-bottom: 0;
+			}
+		}	
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	#footer {
+		.footer-logo {
+			margin: 0 auto 15px;
+		}
+		.contact-numbers {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.footer-contact-desc {
+			text-align: center;
+		}
+		.work-days {
+			text-align: center;
+		}
+		.lang-switch {
+			margin: 0 auto;
+		}
+	}
+
+	.footer-menu {
+		&-item {
+			a {
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 580px) {
+	#footer {
+		.footer-contact-desc {
+			font-size: 13px;
+			line-height: 16px;
+		}
+		.work-days {
+			font-size: 13px;
+			line-height: 16px;
+		}
+	}
+
+	.footer-menu {
+		&-item {
+			a {
+				font-size: 13px;
+				line-height: 16px;
 			}
 		}
 	}

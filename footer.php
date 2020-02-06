@@ -1,39 +1,76 @@
 <footer id="footer">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-7 col-sx-12">
-				<a class="support-btn" href="mailto:ceo@itwd.com">Contact us</a>
-				<div class="contacnt-box">
-					<div class="phone-box">
-						<span>Phone Number</span>
-						<strong>+1 669 204 9033</strong>
-					</div>
-					<div class="email-box">
-						<span>Emai</span>
-						<a href="mailto:ceo@itwd.com">ceo@itwd.com</a>
-					</div>
-					<div class="address-box">
-						<span>Address</span>
-						<strong>75 E Santa Clara St, San Jose, CA 95113, USA</strong>
-					</div>
-					<div class="review-autor contact-autor">
-						<div class="review-autor-img bg-img">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/control.png" alt="Logo">
+		<div class="row flex-center">
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<span class="footer-logo">
+					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/footer-logo.svg" alt="Logo"></a>
+				</span>
+				<div class="contact-numbers">
+					<a href="tel:+380443791911">+38 (044) 379-19-11</a>
+					<a href="tel:+380680464444">+38 (068) 046-44-44</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-9 col-xs-12">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-xs-4">
+								<ul class="footer-menu">
+									<li class="footer-menu-item"><a href="">Гинекология</a></li>
+									<li class="footer-menu-item"><a href="">Коcметология</a></li>
+									<li class="footer-menu-item"><a href="">Инъекции</a></li>
+									<li class="footer-menu-item"><a href="">Трихология</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4">
+								<ul class="footer-menu">
+									<li class="footer-menu-item"><a href="">Ботулинотерапия</a></li>
+									<li class="footer-menu-item"><a href="">Дерматология</a></li>
+									<li class="footer-menu-item"><a href="">Диетолог</a></li>
+									<li class="footer-menu-item"><a href="">Массаж</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4">
+								<ul class="footer-menu">
+									<li class="footer-menu-item"><a href="">О Нас</a></li>
+									<li class="footer-menu-item"><a href="">Команда</a></li>
+									<li class="footer-menu-item"><a href="">Прайс</a></li>
+									<li class="footer-menu-item"><a href="">Отзывы</a></li>
+								</ul>
+							</div>
 						</div>
-						<div class="review-autor-desc">
-							<strong class="name">CEO at IT WatchDog</strong>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="row work-days-info">
+					<div class="col-md-12 col-sm-4 col-xs-4">
+						<div class="footer-contact-desc">
+							<span class="city">г. Киев,</span>
+							<span class="street">пр-кт Героев Сталинграда 4, кор. 4А</span>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-4 col-xs-4">
+						<div class="work-days">
+							<span>График роботы</span>
+							<span class="days">Пн–Вс  9:00–22:00</span>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-4 col-xs-4">
+						<div class="lang-switch">
+							<ul class="lang-switch-list">
+								<li class="active"><a href="">RU</a></li>
+								<li><a href="">UA</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="copyright">
-		<p>© 2019 Standard development, All rigths reserved.</p>
-	</div>
-</footer>
 
-<?php wp_footer(); ?>
+	<?php wp_footer(); ?>
 
 </body>
 </html>
