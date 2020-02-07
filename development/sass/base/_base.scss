@@ -182,10 +182,41 @@ h2 {
       transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
     }
     .arrow {
-        fill: $clr_orange;
+      fill: $clr_orange;
     }
     .hover-rect {
       stroke: $clr_orange;
+    }
+  }
+}
+
+.detail-btn {
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  position: relative;
+    padding: 5px 0 5px 50px;
+  text-transform: uppercase;
+  display: block;
+  color: $clr_gray;
+  transition: all .3s;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 38px;
+    transition: width .3s;
+    background: $clr_gray;
+  }
+  &:hover {
+    color: $clr_orange;
+    padding-left: 60px;
+    &:before {
+      width: 48px;
+      background: $clr_orange;
     }
   }
 }
