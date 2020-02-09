@@ -228,6 +228,31 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
+	<div class="welcome-block">
+		<div class="container">
+			<div class="welcome-block-holder">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="welcome-block-info">
+								<h2>Добро пожаловать в центр!</h2>
+								<div class="text">
+									<p>Клініку було засновано 2019 року. Усі кабінети обладнано за новітніми технологіями з дотриманням всіх європейських норм. Всі фахівці клініки безперечні професіонали своєї справи. Ми отримали декілька сертифікацій та знаходимось у топ 10 клінік Києва за рейтингом “Найсучасніше обладнання”. Для нас дуже важливий кожен клієнт та ми дбаємо про ваше здоров’я. Якщо у вас виникли запитання ми з вам перетелефонуємо неодмінно у зручний для вас час.</p>
+								</div>
+				        <a class="detail-btn href="">Узнать больше</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="welcome-block-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/welcome-img.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 	<div class="get-in-touch">
 		<div class="container">
 			<div class="get-in-touch-form">
