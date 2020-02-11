@@ -224,6 +224,76 @@ get_header(); ?>
 							</a>
 						</div>
 					</div>
+					<div class="col-md-4">
+						<div class="doctor-card">
+							<a href="">
+								<div class="ava bg-img">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/doctor-2.png" alt="">
+								</div>
+								<div class="doctor-descr">
+									<strong>Ольга Михайловна Кук</strong>
+									<p>Доктор наук. ведение патологической беременности, задержка роста плода...</p>
+									<span class="detail-btn">Детальнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="doctor-card">
+							<a href="">
+								<div class="ava bg-img">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/doctor-3.png" alt="">
+								</div>
+								<div class="doctor-descr">
+									<strong>Олег Дмитриевич Иванов</strong>
+									<p>Доктор наук. ведение патологической беременности, задержка роста плода...</p>
+									<span class="detail-btn">Детальнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="doctor-card">
+							<a href="">
+								<div class="ava bg-img">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/doctor-4.png" alt="">
+								</div>
+								<div class="doctor-descr">
+									<strong>Олег Дмитриевич Иванов</strong>
+									<p>Доктор наук. ведение патологической беременности, задержка роста плода...</p>
+									<span class="detail-btn">Детальнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="doctor-card">
+							<a href="">
+								<div class="ava bg-img">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/doctor-5.png" alt="">
+								</div>
+								<div class="doctor-descr">
+									<strong>Олег Дмитриевич Иванов</strong>
+									<p>Доктор наук. ведение патологической беременности, задержка роста плода...</p>
+									<span class="detail-btn">Детальнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="doctor-card">
+							<a href="">
+								<div class="ava bg-img">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/doctor-6.png" alt="">
+								</div>
+								<div class="doctor-descr">
+									<strong>Олег Дмитриевич Иванов</strong>
+									<p>Доктор наук. ведение патологической беременности, задержка роста плода...</p>
+									<span class="detail-btn">Детальнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
