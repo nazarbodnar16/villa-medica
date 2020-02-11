@@ -89,6 +89,30 @@ h2 {
   margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+
+
 .social-wrap {
   margin-top: 20px;
   .soc-icon {
@@ -139,6 +163,10 @@ h2 {
       stroke-dashoffset: 48;
       transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
     }
+  }
+  &:focus {
+    text-decoration: none;
+    color: $clr_white;
   }
 }
 
@@ -195,7 +223,7 @@ h2 {
   line-height: 17px;
   text-decoration: none;
   position: relative;
-    padding: 5px 0 5px 50px;
+  padding: 5px 0 5px 50px;
   text-transform: uppercase;
   display: block;
   color: $clr_gray;

@@ -48,14 +48,49 @@ $(document).ready(function () {
 
 
 	var swiper = new Swiper('.bottom-slider-swiper', {
-		slidesPerView: 5,
+		slidesPerView: 1,
 		speed: 1000,
 		navigation: {
 			nextEl: ".swiper-button-next",
 			prevEl: ".swiper-button-prev"
 		},
 		loop: true,
-		 freeMode: true,
+		freeMode: true,
+		breakpoints: {
+			640: {
+				slidesPerView: 2,
+			},
+			768: {
+				slidesPerView: 3,
+			},
+			1024: {
+				slidesPerView: 5,
+			}
+		}
+	});
+
+	var swiper = new Swiper('.cl-slider-swiper', {
+		slidesPerView: 1,
+		speed: 1000,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev"
+		},
+		loop: true,
+		spaceBetween: 30,
+		breakpoints: {
+			640: {
+				slidesPerView: 1,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 20,
+			},
+			1024: {
+				slidesPerView: 3,
+				spaceBetween: 20,
+			}
+		}
 	});
 
 

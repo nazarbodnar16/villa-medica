@@ -1,4 +1,8 @@
 <?php
+
+/*
+Template Name: about
+*/
 /**
  * The main template file
  *
@@ -19,7 +23,7 @@ get_header(); ?>
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<div class="slide-inner bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/visual.jpg" alt="Logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/about-bg.png" alt="Logo">
 						<div class="container">
 							<div class="cell">
 								<div class="visual-text">
@@ -37,7 +41,7 @@ get_header(); ?>
 				</div>
 				<div class="swiper-slide">
 					<div class="slide-inner bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/visual-bg.png" alt="Logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/about-bg.png" alt="Logo">
 						<div class="container">
 							<div class="cell">
 								<div class="visual-text">
@@ -55,7 +59,7 @@ get_header(); ?>
 				</div>
 				<div class="swiper-slide">
 					<div class="slide-inner  bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/visual-bg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/about-bg.png" alt="">
 						<div class="container">
 							<div class="cell">
 								<div class="visual-text">
@@ -77,167 +81,70 @@ get_header(); ?>
 			<div class="swiper-pagination"></div>
 		</div>
 	</div>
-	<div class="our-services">
+	<div class="about-info">
 		<div class="container">
-			<h2>Наши Услуги</h2>
-			<ul class="our-services-list">
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-1.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/gynecology.svg" alt="">
-								</span>
-								<span class="heading">Гинекология</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-2.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/gynecology.svg" alt="">
-								</span>
-								<span class="heading">Косметология</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-3.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/plastic.svg" alt="">
-								</span>
-								<span class="heading">Инъекции</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-4.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/hair.svg" alt="">
-								</span>
-								<span class="heading">Трихология</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-5.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/icon_antiage.svg" alt="">
-								</span>
-								<span class="heading">Аппаратные методики</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-6.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/icon_dermatology.svg" alt="">
-								</span>
-								<span class="heading">Дерматология</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-7.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/anti.svg" alt="">
-								</span>
-								<span class="heading">Ендокринологія Anti–Age</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-				<li class="our-services-list-item">
-					<a class="our-services-list-link bg-img" href="">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/service-8.png" alt="">
-						<span class="description">
-							<span class="off-hover-block">
-								<span class="ico">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/massage.svg" alt="">
-								</span>
-								<span class="heading">Массаж</span>
-								<span class="text">Наши специалисты подбирают программу индивидуально для каждого клиєнта</span>
-							</span>
-						</span>
-					</a>
-				</li>
-			</ul>
-			<a href="" class="btn-arrow">
-				<svg class="hover-line">
-					<rect class="hover-rect" x="0" y="0" fill="none" width="100%" height="100%"></rect>
-				</svg>
-				<span class="text">Все услуги</span>
-				<svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path class="arrow" d="M19.3536 4.35355C19.5488 4.15829 19.5488 3.84171 19.3536 3.64644L16.1716 0.464465C15.9763 0.269203 15.6597 0.269203 15.4645 0.464465C15.2692 0.659727 15.2692 0.976309 15.4645 1.17157L18.2929 4L15.4645 6.82843C15.2692 7.02369 15.2692 7.34027 15.4645 7.53553C15.6597 7.73079 15.9763 7.73079 16.1716 7.53553L19.3536 4.35355ZM4.37114e-08 4.5L19 4.5L19 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="#716F74"/>
-				</svg>
-			</a>
-		</div>
-	</div>
-	<div class="welcome-block">
-		<div class="container">
-			<div class="welcome-block-holder">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="welcome-block-info">
-								<h2>Добро пожаловать в центр!</h2>
-								<div class="text">
-									<p>Клініку було засновано 2019 року. Усі кабінети обладнано за новітніми технологіями з дотриманням всіх європейських норм. Всі фахівці клініки безперечні професіонали своєї справи. Ми отримали декілька сертифікацій та знаходимось у топ 10 клінік Києва за рейтингом “Найсучасніше обладнання”. Для нас дуже важливий кожен клієнт та ми дбаємо про ваше здоров’я. Якщо у вас виникли запитання ми з вам перетелефонуємо неодмінно у зручний для вас час.</p>
-								</div>
-								<a class="detail-btn href="">Узнать больше</a>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="welcome-block-img">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/welcome-img.png" alt="">
-							</div>
-						</div>
-					</div>
+			<div class="row">
+				<div class="col-md-9"><h2 class="befor-heading">Мы молодая клиника с современными технологиями</h2></div>
+				<div class="col-md-6">
+					<p>Пластические операции предполагают изменения внешности. Они могут быть как незначительными, так и касаться обширных коррекций лица и тела. Для пациента подобные манипуляции всегда связаны с переживаниями и опасениями насчет успешности операции. Пластические операции предполагают изменения внешности. Они могут быть как незначительными, так и касаться обширных коррекций лица и тела. Для пациента подобные манипуляции всегда связаны с переживаниями и опасениями насчет успешности операции.</p>
 				</div>
-				
+				<div class="col-md-6">
+					<p>Персонал клиники «Villa Medica» осознает все тонкости пластической хирургии и те сложности, с которыми сталкивается пациент. Мы создаем максимально комфортные условия для пациентов, обеспечивая им теплую атмосферу, внимание и заботу.</p>
+					<p>Персонал клиники «Villa Medica» осознает все тонкости пластической хирургии и те сложности, с которыми сталкивается пациент. Мы создаем максимально комфортные условия для пациентов, обеспечивая им теплую атмосферу, внимание и заботу.</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="philosophy">
-		<div class="philosophy-img bg-img">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/philosophy.png" alt="">
+	<div class="cl-slider-box">
+		<div class="swiper-container cl-slider-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="slide-inner bg-img">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/cl-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slide-inner bg-img">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/cl-2.jpg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slide-inner  bg-img">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/cl-3.jpg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slide-inner  bg-img">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/cl-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="slide-inner  bg-img">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/cl-2.jpg" alt="">
+					</div>
+				</div>
+			</div>
 		</div>
+		<div class="swiper-button-next swiper-button-white"></div>
+		<div class="swiper-button-prev swiper-button-white"></div>
+	</div>
+	<div class="doctor-review">
 		<div class="container">
-			<div class="philosophy-info">
-				<h2>Философия И Мисия центра</h2>
-				<p>Клініку було засновано 2019 року. Усі кабінети обладнано за новітніми технологіями з дотриманням всіх європейських норм. Всі фахівці клініки безперечні професіонали своєї справи. Ми отримали декілька сертифікацій та знаходимось у топ 10 клінік Києва за рейтингом “Найсучасніше обладнання”. Для нас дуже важливий кожен клієнт та ми дбаємо про ваше здоров’я. Якщо у вас виникли запитання ми з вам перетелефонуємо неодмінно у зручний для вас час.</p>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="doctor-review-img">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/doctor-review.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="doctor-review-desc">
+						<blockquote class="quote">“Главное в нашей работе - это результат. Если после процедуры клиент счастлив значить мы не зря делаем свою роботу!”</blockquote>
+						<div class="doctor-review-info">
+							<span class="name">Ошовский Виктор Иванович</span>
+							<p>Основатель клиники, доктор высшей квалификационной категории, кандидат медицинских наук</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
