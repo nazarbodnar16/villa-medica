@@ -201,6 +201,31 @@
 	}
 }
 
+.welcome-block {
+	padding: 96px 0;
+	&-holder {
+		background: $clr_nude;
+		padding: 110px 94px;
+		.container {
+			width: 100%;
+		}
+	}
+	&-info {
+		h2 {
+			margin-bottom: 35px;
+			letter-spacing: 0;
+		}
+	.text {
+		letter-spacing: 0;
+		margin-bottom: 65px;
+		}
+		.detail-btn {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}
+
 
 .get-in-touch {
 	padding: 96px 0;
