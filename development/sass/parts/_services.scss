@@ -3,8 +3,9 @@
 	padding: 70px 0;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: center bottom;
 	position: relative;
+	margin-bottom: 60px;
 	.container {
 		position: relative;
 		z-index: 1;
@@ -175,7 +176,7 @@
 
 
 .services-holder {
-	padding: 60px 0;
+	padding: 0 0 60px 0;
 	.service-banner {
 		margin-bottom: 70px;
 	}
