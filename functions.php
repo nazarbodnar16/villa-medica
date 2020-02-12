@@ -33,7 +33,7 @@ add_theme_support( 'html5', array(
 function my_assets() {
 
 	// Add Google Fonts
-	wp_enqueue_style( 'montserrat', 'https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap' );
+	wp_enqueue_style( 'montserrat', 'https://fonts.googleapis.com/css?family=Cormorant:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese' );
 
 	wp_enqueue_style( 'id-main', get_stylesheet_uri() );
 
