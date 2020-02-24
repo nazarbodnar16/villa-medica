@@ -242,6 +242,7 @@ h2 {
   &:hover {
     color: $clr_orange;
     padding-left: 60px;
+    text-decoration: none;
     &:before {
       width: 48px;
       background: $clr_orange;

@@ -69,6 +69,16 @@ $(document).ready(function () {
 		}
 	});
 
+	var swiper = new Swiper('.price-slider-swiper', {
+		slidesPerView: 1,
+		speed: 1000,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev"
+		},
+		loop: true
+	});
+
 	var swiper = new Swiper('.cl-slider-swiper', {
 		slidesPerView: 1,
 		speed: 1000,
