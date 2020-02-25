@@ -77,6 +77,126 @@ get_header(); ?>
 		<div class="swiper-button-prev"></div>
 		<div class="swiper-pagination"></div>
 	</div>
+	<div class="price-for-services">
+		<div class="container">
+			<h2>Прайс на услуги</h2>
+			<ul class="nav price-nav nav-tabs">
+				<li class="active">
+					<a data-toggle="tab" href="#gn">Гинекология</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#km">Косметология</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#in">Инъекции</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#tr">Трихология</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#bt">Ботулинотерапия</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#dr">Дерматология</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#dt">Диетолог</a>
+				</li>
+				<li>
+					<a data-toggle="tab" href="#ms">Массаж</a>
+				</li>
+			</ul>
+			<div class="price-nav-head">
+				<nav aria-label="breadcrumb">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Главная</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Прайс</li>
+					</ul>
+				</nav>
+				<ul class="val-switch-list">
+					<li class="active"><a href="">UAN</a></li>
+					<li><a href="">USD</a></li>
+				</ul>
+			</div>
+			<div class="tab-content">
+				<div class="tab-pane active" id="gn">
+					<ul class="accordion price-acordion" id="accordion">
+						<li class="accordion__list">
+							<div class="link"><span class="link__title">Костная пластика лица</span><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></div>
+							<ul class="submenu">
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+							</ul>
+						</li>
+						<li class="accordion__list">
+							<div class="link"><span class="link__title">Костная пластика лица</span><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></div>
+							<ul class="submenu">
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+							</ul>
+						</li>
+						<li class="accordion__list">
+							<div class="link"><span class="link__title">Костная пластика лица</span><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></div>
+							<ul class="submenu">
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+							</ul>
+						</li>
+						<li class="accordion__list">
+							<div class="link"><span class="link__title">Костная пластика лица</span><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></div>
+							<ul class="submenu">
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+							</ul>
+						</li>
+						<li class="accordion__list">
+							<div class="link"><span class="link__title">Костная пластика лица</span><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></div>
+							<ul class="submenu">
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">42 640 грн.</span></li>
+								<li><span class="subj">Малярпластика (уменьшение скул)</span><span class="price">34 645 – 42 640 грн.</span></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-pane" id="km">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum aliquid corporis, quasi voluptatibus totam et, tempore eius officiis excepturi.
+				</div>
+				<div class="tab-pane" id="in">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, voluptatibus.
+				</div>
+				<div class="tab-pane" id="tr">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum aliquid corporis, quasi voluptatibus totam et, tempore eius officiis excepturi.
+				</div>
+				<div class="tab-pane" id="bt">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, voluptatibus.
+				</div>
+				<div class="tab-pane" id="dr">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum aliquid corporis, quasi voluptatibus totam et, tempore eius officiis excepturi.
+				</div>
+				<div class="tab-pane" id="dt">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, voluptatibus.
+				</div>
+				<div class="tab-pane" id="ms">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum aliquid corporis, quasi voluptatibus totam et, tempore eius officiis excepturi.
+				</div>
+			</div>		
+		</div>
+	</div>
 	<div class="get-in-touch">
 		<div class="container">
 			<div class="get-in-touch-form">

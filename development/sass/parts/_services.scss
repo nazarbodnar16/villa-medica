@@ -6,6 +6,11 @@
 	background-position: center bottom;
 	position: relative;
 	margin-bottom: 60px;
+	&.no-overlay {
+		&:before {
+			display: none;
+		}
+	}
 	.container {
 		position: relative;
 		z-index: 1;
