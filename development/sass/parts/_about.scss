@@ -723,4 +723,19 @@
 			text-align: center;
 		}
 	}
+
+	.get-in-touch-form {
+		.touch-content {
+			padding: 40px 0;
+			h2 {
+				font-size: 18px;
+			}
+			.btn-arrow {
+				padding: 11px 24px;
+				.hover-line {
+					height: 40px;
+				}
+			}
+		}
+	}
 }

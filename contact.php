@@ -33,72 +33,58 @@ get_header(); ?>
 	<div class="contact-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 ">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deleniti ipsum maxime voluptates nesciunt corrupti doloribus libero ad, necessitatibus eaque, cum voluptate esse quis eum velit, error tempore perspiciatis vel vitae veniam? Dicta optio quibusdam delectus, vitae in consequatur cupiditate quaerat reiciendis iste eveniet, odio deleniti velit sapiente aspernatur, ad aperiam libero eos provident pariatur mollitia, nostrum aliquid. Consequuntur natus maxime dolorem repudiandae iure soluta error vero quisquam magnam, laudantium, praesentium voluptatibus totam doloribus id quo! Alias quo et, provident culpa qui adipisci. Iste, mollitia dignissimos. Sunt dignissimos ea nobis unde blanditiis tenetur, assumenda, cumque deserunt nam nostrum quidem voluptatem!
+				<div class="col-md-4">
+					<div class="contact-info-box">
+						<div class="address-holder">
+							<div class="ico">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/home.svg" alt="">
+							</div>
+							<div class="text">
+								<p><span>м. Киев,</span><span>ул. Героев Сталинграда 2Д,</span><span>ЖК "Парк Стоун", офіс 603, 1 етаж </span><span>(вхід з боку Північного моста)</span></p>
+							</div>
+						</div>
+						<div class="phone-email-holder">
+							<a href="tel:380443337825">
+								<span class="ico">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/phone.svg" alt="">
+								</span>
+								<span class="text phone">+38 (044) 333-78-25</span>
+							</a>
+							<a href="mailto:info@villamedica.com.ua" >
+								<span class="ico">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/mail.svg" alt="">
+								</span>
+								<span class="text email">info@villamedica.com.ua</span>
+							</a>
+						</div>
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/fb.svg" alt="">
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/inst.svg" alt="">
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/google.svg" alt="">
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class="col-md-7">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/map.png" alt="">
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="bottom-slider">
-		<div class="swiper-container bottom-slider-swiper">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<div class="slide-inner bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/bottom-slide-1.png" alt="">
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="slide-inner bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/bottom-slide-2.png" alt="">
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="slide-inner  bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/bottom-slide-3.png" alt="">
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="slide-inner  bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/bottom-slide-4.png" alt="">
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<div class="slide-inner  bg-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/bottom-slide-5.png" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="swiper-button-next swiper-button-white"></div>
-			<div class="swiper-button-prev swiper-button-white"></div>
-		</div>
-	</div>
-	<div class="social">
-		<div class="container">
-			<ul class="social-list">
-				<li class="social-list-item">
-					<a href="" class="social-list-link">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/fb.svg" alt="">
-					</a>
-				</li>
-				<li class="social-list-item">
-					<a href="" class="social-list-link">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/inst.svg" alt="">
-					</a>
-				</li>
-				<li class="social-list-item">
-					<a href="" class="social-list-link">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/google.svg" alt="">
-					</a>
-				</li>
-				<li class="social-list-item">
-					<a href="" class="social-list-link">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" alt="">
-					</a>
-				</li>
-			</ul>
 		</div>
 	</div>
 </main>

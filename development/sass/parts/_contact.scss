@@ -1,0 +1,73 @@
+.contact-box {
+	padding-bottom: 96px;
+}
+
+.contact-info-box {
+	letter-spacing: 0;
+	margin-right: 25px;
+	.address-holder {
+		border-bottom: 1px solid #c4c4c4;
+		padding-bottom: 45px;
+		display: flex;
+		.ico {
+			min-width: 48px;
+			height: 48px;
+			margin-right: 25px;
+			border-radius: 50%;
+			border: 1px solid $clr_nude;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.text {
+			font-weight: 600;
+			span {
+				display: block;
+				&:last-child {
+					font-weight: 300;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+	.phone-email-holder{
+		border-bottom: 1px solid #c4c4c4;
+		padding: 45px 0;
+		a {
+			display: block;
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			color: $clr_light_gray;
+			margin-bottom: 25px;
+			&:hover {
+				text-decoration: none;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.ico {
+				width: 48px;
+				height: 48px;
+				margin-right: 25px;
+				border-radius: 50%;
+				border: 1px solid $clr_nude;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.text {
+				&.phone {
+					font-size: 24px;
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+	.social-list {
+		padding: 45px 0;
+		margin: 0;
+	}
+}
