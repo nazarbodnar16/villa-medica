@@ -52,18 +52,51 @@ get_header(); ?>
 					<li class="reviews-list-item">
 						<div class="by-who">
 							<span class="name">Анна</span>
-							<fieldset class="rating">
-								<input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
-								<input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-								<input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-								<input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-								<input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
-								<input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-								<input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-								<input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-								<input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-								<input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-							</fieldset>
+							<div class="my-rating"></div>
+							<span class="date">12/05/2019</span>
+						</div>
+						<div class="reviews-text">
+							<h3>Волшебно!</h3>
+							<p>Сфера профессиональных интересов: ведение патологической беременности, задержка роста плода, резус-конфликт, ведение монохориальных двоен, внутриутробные инфекции, ведение плодов и новорожденных с пороками развития. патологией околоплодных вод.</p>
+						</div>
+					</li>
+					<li class="reviews-list-item">
+						<div class="by-who">
+							<span class="name">Анна</span>
+							<div class="my-rating"></div>
+							<span class="date">12/05/2019</span>
+						</div>
+						<div class="reviews-text">
+							<h3>Волшебно!</h3>
+							<p>Сфера профессиональных интересов: ведение патологической беременности, задержка роста плода, резус-конфликт, ведение монохориальных двоен, внутриутробные инфекции, ведение плодов и новорожденных с пороками развития. патологией околоплодных вод.</p>
+						</div>
+					</li>
+					<li class="reviews-list-item">
+						<div class="by-who">
+							<span class="name">Анна</span>
+							<div class="my-rating"></div>
+							<span class="date">12/05/2019</span>
+						</div>
+						<div class="reviews-text">
+							<h3>Волшебно!</h3>
+							<p>Сфера профессиональных интересов: ведение патологической беременности, задержка роста плода, резус-конфликт, ведение монохориальных двоен, внутриутробные инфекции, ведение плодов и новорожденных с пороками развития. патологией околоплодных вод.</p>
+						</div>
+					</li>
+					<li class="reviews-list-item">
+						<div class="by-who">
+							<span class="name">Анна</span>
+							<div class="my-rating"></div>
+							<span class="date">12/05/2019</span>
+						</div>
+						<div class="reviews-text">
+							<h3>Волшебно!</h3>
+							<p>Сфера профессиональных интересов: ведение патологической беременности, задержка роста плода, резус-конфликт, ведение монохориальных двоен, внутриутробные инфекции, ведение плодов и новорожденных с пороками развития. патологией околоплодных вод.</p>
+						</div>
+					</li>
+					<li class="reviews-list-item">
+						<div class="by-who">
+							<span class="name">Анна</span>
+							<div class="my-rating"></div>
 							<span class="date">12/05/2019</span>
 						</div>
 						<div class="reviews-text">
@@ -72,6 +105,53 @@ get_header(); ?>
 						</div>
 					</li>
 				</ul>
+				<ul class="review-pagination">
+					<li class="active"><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="add-review">
+		<div class="container">
+			<div class="row">
+				<div class="contact-form">
+					<h2>Оставить отзив</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="input-block">
+							<label for="">Имя (Обязательно)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="input-block">
+							<label for="">Email (Обязательно)</label>
+							<input type="email" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="input-block">
+							<label for="">Коментарий</label>
+							<textarea class="form-control"></textarea>
+						</div>
+						<div class="add-revie-footer">
+							<div class="my-rating"></div>
+							<a href="" class="btn-arrow">
+								<svg class="hover-line">
+									<rect class="hover-rect" x="0" y="0" fill="none" width="100%" height="100%"></rect>
+								</svg>
+								<span class="text">Оставить отзив</span>
+								<svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path class="arrow" d="M19.3536 4.35355C19.5488 4.15829 19.5488 3.84171 19.3536 3.64644L16.1716 0.464465C15.9763 0.269203 15.6597 0.269203 15.4645 0.464465C15.2692 0.659727 15.2692 0.976309 15.4645 1.17157L18.2929 4L15.4645 6.82843C15.2692 7.02369 15.2692 7.34027 15.4645 7.53553C15.6597 7.73079 15.9763 7.73079 16.1716 7.53553L19.3536 4.35355ZM4.37114e-08 4.5L19 4.5L19 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="#716F74"></path>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>

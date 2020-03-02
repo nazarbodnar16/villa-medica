@@ -161,6 +161,15 @@ $('.contact-form').find('.form-control').blur(function() {
   }
 });
 $('.selectpicker').selectpicker();
+
+$(".my-rating").starRating({
+  initialRating: 4,
+  strokeColor: '#894A00',
+  strokeWidth: 10,
+  starSize: 20,
+  ratedColor: '#f7931f'
+
+});
 	
 $(function(){
     var Accordion = function(el, multiple) {
