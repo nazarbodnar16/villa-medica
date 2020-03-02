@@ -1,0 +1,144 @@
+.reviews-holder {
+	.reviews-heading {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.left {
+			display: flex;
+			align-items: center;
+			> span {
+				margin-right: 35px;
+				margin-top: -1px;
+			}
+			.btn-default:focus {
+				background: transparent;
+			}
+		}
+		.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+			background: transparent;
+		}
+	}
+}
+
+.reviews-heading {
+	.bootstrap-select {
+		width: auto !important;
+		> .btn {
+			border: none;
+			font-size: 18px;
+			padding: 0 11px 0 0;
+			&:hover {
+				background: transparent;
+			}
+			&:focus {
+				outline: none !important;
+			}
+			&:active {
+				box-shadow: none !important;;
+			}
+			.caret {
+				height: 5px;
+				width: 5px;
+				border-top: none;
+				border-right: 1px solid $clr_gray;
+				border-bottom: 1px solid $clr_gray;
+				border-left: none;
+				transform: rotate(45deg);
+				margin-top: -3px;
+			}
+		}
+		.dropdown-menu {
+			li.selected {
+				a {
+					background: $clr_orange;
+					color: $clr_white;
+				}
+			}
+		}
+	}
+}
+
+.reviews-list {
+	list-style: none;
+	&-item {
+		padding: 47px 150px;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		.rating {
+			display: block;
+		}
+		.by-who {
+			min-width: 305px;
+			.name {
+				font-size: 24px;
+				line-height: 34px;
+				font-weight: 600;
+				margin-bottom: 15px;
+				display: block;
+			}
+			.date {
+				color: $clr_light_gray;
+			}
+		}
+		.reviews-text {
+			h3 {
+				font-size: 24px;
+				line-height: 34px;
+				font-weight: 600;
+				margin-bottom: 15px;
+			}
+			p {
+				color: $clr_light_gray;
+			}
+		}
+	}
+}
+
+.rating {
+  border: none;
+  > {
+    input {
+      display: none;
+    }
+    label:before {
+      margin: 5px;
+      font-size: 1.25em;
+      font-family: FontAwesome;
+      display: inline-block;
+      content: "\f005";
+    }
+    .half:before {
+      content: "\f089";
+      position: absolute;
+    }
+    label {
+      color: #ddd;
+      float: right;
+    }
+    input:checked ~ label {
+      color: #FFD700;
+    }
+  }
+  &:not(:checked) > label:hover {
+    color: #FFD700;
+
+    ~ label {
+      color: #FFD700;
+    }
+  }
+  > {
+    input:checked {
+      + label:hover, ~ label:hover {
+        color: #FFED85;
+      }
+    }
+    label:hover ~ input:checked ~ label, input:checked ~ label:hover ~ label {
+      color: #FFED85;
+    }
+  }
+}
